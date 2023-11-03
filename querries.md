@@ -1,5 +1,5 @@
 # Select
-```
+```mySql
 SELECT column1, column2
 FROM table_name;
 
@@ -11,7 +11,7 @@ FROM table_name;
 SELECT COUNT(DISTINCT Country) FROM Customers;
 ```
 # Where
-```
+```mySql
 SELECT column1, column2
 FROM table_name
 WHERE condition;
@@ -32,7 +32,7 @@ WHERE CustomerID = 1;
 | LIKE     | Search for pattern|
 | IN       | To specify multiple possible values for a column |
 
-```
+```mySql
 -- AND
 SELECT column1, column2
 FROM table_name
