@@ -85,6 +85,53 @@ SELECT SUBSTRING_INDEX("www.w3schools.com", ".", 1);
 ```
 The return value should be "www"
 
+## Numeric Functions
+### ABS
+Return the absolute  value of a number
+
+### AVG
+Return the average value for "price" column in the Products Table
+```MySQL
+SELECT AVG(Price) AS AveragePrice FROM Products
+```
+
+### CEIL / CEILING and FLOOR
+Return the smallest integer value that us greater than or equal to 25.75
+``` MySQL
+SELECT CEIL(25.75);
+```
+
+### COUNT
+Return the number of products in the "Products" table
+``` MySQL
+SELECT COUNT(ProductID) AS NumberOfProducts FROM Products
+```
+
+### DIV
+The DIV function is used for integer division (x is divided by y). An integer value is returned
+``` MySQL
+SELECT 8 DIV 3;
+```
+
+### GREATEST / LEAST
+Return the greatest/smallest value of the list of argument
+
+### MAX/MIN
+Find the price for most expensive/cheapest products in the "Products" table
+``` MySQL
+SELECT MAX (Price) AS LargestPrice FROM Products
+```
+
+### SUM
+``` MySQL
+SELECT SUM(Quantity) AS TotalItemsOrdered FROM OrderDetails;
+```
+
+### Truncate
+Used for truncating a number to the specified number of decimal places
+``` MySQL
+SELECT TRUNCATE(135.375, 2);
+```
 
 
 
